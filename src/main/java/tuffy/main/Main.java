@@ -25,7 +25,7 @@ public class Main {
 		
 		if(!options.isDLearningMode){
 			// INFERENCE
-			if(!options.disablePartition){
+			if(options.disablePartition){
 				UIMan.println("Partitioned inference disabled");
 //				new PartInfer().run(options);
 			}else{

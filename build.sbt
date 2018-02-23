@@ -39,7 +39,7 @@ libraryDependencies ++= Seq(
   "org.apache.commons" % "commons-lang3" % "3.3",
   "org.apache.commons" % "commons-math" % "2.2",
   "org.postgresql" % "postgresql" % "9.3-1102-jdbc41",
-  "thirdparty" % "jgrapht-jdk1.6" % "0.8.2"
+  "org.jgrapht" % "jgrapht-core" % "1.1.0"
 )
 
 compileOrder := CompileOrder.JavaThenScala
