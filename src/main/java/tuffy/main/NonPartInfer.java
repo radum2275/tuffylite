@@ -64,7 +64,7 @@ public class NonPartInfer extends Infer{
 					UIMan.verbose(3, "Loading MRF from DB...");
 					dmover.loadMrfFromDb(mrf, mln.relAtoms, mln.relClauses);
 				}
-							
+				
 				if (Config.unitPropagate) {
 					Timer.start("fullUnitPropagate");
 					UIMan.verbose(3, ">>> Starting unit propagation...");
